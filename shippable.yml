@@ -28,6 +28,7 @@ before_script:
 
 # Running the tests with grunt
 script:
+  - pwd
   - grunt
 
 # Tell istanbul to generate a coverage report
